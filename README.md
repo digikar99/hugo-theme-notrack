@@ -63,6 +63,12 @@ $ hugo server -D --themesDir ../..
 You can now see the example website in your browser and interact with it. Hugo
 will print instructions for what address to use. Usually it is `http://localhost:1313/`.
 
+If you want to export the site as static files, do the following:
+
+```shell
+$ hugo server -D --themesDir ../..
+```
+
 # Example site configuration file
 
 Here is a working `config.yaml`:
